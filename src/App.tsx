@@ -1,6 +1,11 @@
+import { Button } from "antd-mobile"
+
 function App() {
   return (
-    <div className="App"> this is app </div>
+    <div className="App">
+      this is app
+      <Button color="success">click me</Button>
+    </div>
   )
 }
 
